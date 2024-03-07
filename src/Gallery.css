@@ -1,0 +1,95 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the min and max width as needed */
+    gap: 16px;
+    padding: 16px;
+}
+
+.gallery .pics {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.gallery .pics img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.gallery .pics:hover img {
+    transform: scale(1.05);
+}
+
+
+
+
+/* Model */
+
+
+
+.model {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1; /* Set z-index to position model behind gallery images */
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+
+}
+.model.open {
+    opacity: 1;
+    z-index: 10;
+}
+
+
+.temp {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px; /* Adjust the top position relative to the .temp container */
+    right: 10px; /* Adjust the right position relative to the .temp container */
+    color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(79, 68, 68, .8);
+    border-radius: 50%;
+}
+
+
+@media (max-width: 991px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust for medium screens */
+    }  
+    .model .close-icon {
+        top: 5%; /* Adjust top position for medium screens */
+        right: 10%; /* Adjust right position for medium screens */
+    }
+
+}
+
+@media (max-width: 767px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Adjust for smaller screens */
+    }
+    .model .close-icon {
+        top: 1rem; /* Adjust top position for smaller screens */
+        right: 5%; /* Adjust right position for smaller screens */
+    }
+
+}
