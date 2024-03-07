@@ -95,8 +95,7 @@ const Gallery = () => {
    <div className={model?"model open":"model"}>   
         <img className='temp' src={tempimgSrc} />
         <CloseIcon className='close-icon' onClick={()=> setModel(false)}/>
-        <p className='p'>ioiajsdijaisod</p>
-   </div>
+    </div>
     <div className='gallery'>
         {data.map((item,index)=>{
             return(
