@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 body {
-  margin: 0px 40px;
+  margin: 0px 60px;
+}
+/* Adjust margins for smaller screens */
+@media (max-width: 1200px) {
+  body {
+    margin: 0px 30px; /* Smaller margin for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0px 15px; /* Smaller margin for mobile screens */
+  }
 }

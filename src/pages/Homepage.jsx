@@ -4,16 +4,16 @@ import Button from "../components/Button";
 
 const Homepage = () => {
   return (
-    <div className="grid grid-cols-2 items-center h-[100vh]">
+    <div className="grid grid-cols-1 items-center h-[100vh] lg:grid-cols-2">
       <div className="">
         {" "}
         <img
           src="/images/astronaut-modified-removebg-preview.png"
-          className="w-[600px]"
+          className="sm:w-[200px] md:w-[400px] lg:w-[600px]"
         ></img>
       </div>
-      <div className=" w-[600px] text-center flex flex-col gap-5">
-        <p className="text-[3.5rem] font-extrabold text-textPrimary">
+      <div className=" lg:w-[600px] flex flex-col gap-5 justify-center">
+        <p className="text-[2rem] lg:text-[3.5rem] font-extrabold text-textPrimary">
           Welcome to Your <span className="text-primary">3D Modeling</span>{" "}
           Journey
         </p>

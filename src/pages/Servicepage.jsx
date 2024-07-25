@@ -7,7 +7,7 @@ const Servicepage = () => {
     <div className="flex flex-col justify-center items-center min-h-screen">
       <Title title="SERVICES" subtitle="Accelerate Your Modeling!" />
 
-      <div className="grid grid-cols-3 gap-5 w-[1200px] ">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-5 w-[full] ">
         {services.map((service) => (
           <Card
             key={service.id} // Ensure each card has a unique key
