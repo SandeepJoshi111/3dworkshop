@@ -6,7 +6,7 @@ const Aboutpage = () => {
   return (
     <div className="w-full flex items-center flex-col">
       <Title title={"ABOUT US "} subtitle={"Our Journey"} />
-      <div className="text-textPrimary w-[full]  text-justify text-[0.8rem] lg:text-[1.1rem] mb-10">
+      <div className="text-textPrimary w-[full]  text-justify text-[1.1rem] mb-10">
         <p>
           The COVID-19 lockdown presented many difficulties but ultimately
           revealed what we truly wanted to pursue in life. What began as an
