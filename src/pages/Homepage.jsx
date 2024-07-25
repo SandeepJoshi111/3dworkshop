@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 const Homepage = () => {
   return (
-    <div className="grid grid-cols-2 items-center">
+    <div className="grid grid-cols-2 items-center h-[100vh]">
       <div className="">
         {" "}
         <img

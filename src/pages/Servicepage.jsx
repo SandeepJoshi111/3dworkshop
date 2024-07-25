@@ -1,10 +1,22 @@
 import React from "react";
 import Title from "../components/Title";
-
+import Card from "../components/Card";
+import services from "../datas/services";
 const Servicepage = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center min-h-screen">
       <Title title="SERVICES" subtitle="Accelerate Your Modeling!" />
+
+      <div className="grid grid-cols-3 gap-5 w-[1200px] ">
+        {services.map((service) => (
+          <Card
+            key={service.id} // Ensure each card has a unique key
+            title={service.title}
+            icon={service.icon}
+            description={service.desc}
+          />
+        ))}
+      </div>
     </div>
   );
 };

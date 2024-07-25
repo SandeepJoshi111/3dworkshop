@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Aboutpage from "./pages/Aboutpage";
+import Clientpage from "./pages/Clientpage";
 import Contactpage from "./pages/Contactpage";
 import Homepage from "./pages/Homepage";
 import Packagepage from "./pages/Packagepage";
@@ -13,6 +14,7 @@ function App() {
       <Aboutpage />
       <Servicepage />
       <Packagepage />
+      <Clientpage />
       <Contactpage />
     </>
   );
