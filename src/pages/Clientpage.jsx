@@ -4,7 +4,7 @@ import Title from "../components/Title";
 const Clientpage = () => {
   return (
     <div>
-      <Title title={"Our Clients"} subtitle={"Trusted by Leading Brands"} />
+      <Title title={"OUR CLIETNS"} subtitle={"Trusted by Leading Brands"} />
     </div>
   );
 };
