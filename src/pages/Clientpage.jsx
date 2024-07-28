@@ -11,10 +11,10 @@ const Clientpage = () => {
   };
   const items = [
     <div className="flex justify-center">
-      <img src="/public/images/oressa.jpg" className="w-[200px]" />
+      <img src="/images/oressa.jpg" className="w-[200px]" />
     </div>,
     <div className="flex justify-center">
-      <img src="/public/images/baltra.png" className="w-[200px]" />
+      <img src="/images/baltra.png" className="w-[200px]" />
     </div>,
     <div className="flex justify-center">
       <img src="/images/hamro momo.jpeg" className="w-[200px]" />
