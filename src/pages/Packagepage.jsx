@@ -6,7 +6,7 @@ import Button from "../components/Button";
 
 const Packagepage = () => {
   return (
-    <div>
+    <div className="my-20">
       <Title title={"PACKAGES"} subtitle={"Choose Your Perfect Fit!"} />
       <div className="flex flex-col gap-3 md:flex-row w-full">
         <div className="grid flex-grow place-items-center join">

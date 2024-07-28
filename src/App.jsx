@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Aboutpage from "./pages/Aboutpage";
 import Clientpage from "./pages/Clientpage";
@@ -16,6 +17,7 @@ function App() {
       <Packagepage />
       <Clientpage />
       <Contactpage />
+      <Footer />
     </>
   );
 }
