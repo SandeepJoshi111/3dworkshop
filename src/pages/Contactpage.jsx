@@ -3,7 +3,7 @@ import Title from "../components/Title";
 
 const Contactpage = () => {
   return (
-    <div className="my-20">
+    <div className="my-20" id="contact">
       {" "}
       <Title title={"CONTACT US"} subtitle={"We'd Love to Hear from You!"} />
       <form className="flex flex-col items-center gap-4">

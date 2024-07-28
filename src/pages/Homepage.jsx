@@ -1,5 +1,4 @@
 import React from "react";
-import Statistics from "../components/Statistics";
 import Button from "../components/Button";
 
 const Homepage = () => {
@@ -25,11 +24,15 @@ const Homepage = () => {
           ideas to life with stunning precision and creativity.
         </p>
         <div className="flex justify-center gap-5 text-[1.1rem]">
-          <Button title="Explore" />
-          <Button
-            title="Contact Us"
-            classname={" bg-white text-black  hover:bg-primaryBtn"}
-          />
+          <a href="#packages">
+            <Button title="Explore" />
+          </a>
+          <a href="#contact">
+            <Button
+              title="Contact Us"
+              classname={" bg-white text-black  hover:bg-primaryBtn"}
+            />
+          </a>
         </div>
       </div>
     </div>

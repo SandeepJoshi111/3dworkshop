@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Aboutpage from "./pages/Aboutpage";
@@ -18,6 +19,12 @@ function App() {
       <Clientpage />
       <Contactpage />
       <Footer />
+      <a href="https://wa.me/9779818119950?text=Hi!" target="_blank">
+        <Icon
+          icon="logos:whatsapp-icon"
+          className="fixed size-8 bottom-5 right-5 lg:bottom-10 lg:right-10"
+        />
+      </a>
     </>
   );
 }
