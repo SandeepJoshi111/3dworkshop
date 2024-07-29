@@ -7,8 +7,13 @@ import Contactpage from "./pages/Contactpage";
 import Homepage from "./pages/Homepage";
 import Packagepage from "./pages/Packagepage";
 import Servicepage from "./pages/Servicepage";
+import ReactGA from "react-ga4";
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <>
       <Navbar />

@@ -8,10 +8,7 @@ import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-0EP2W4CX65");
 
-ReactGA.send({
-  hitType: "pageview",
-  page: window.location.pathname,
-});
+
 
 const router = createBrowserRouter([
   {
