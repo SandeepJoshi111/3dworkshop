@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex fixed top-0 z-10 justify-between w-full bg-black -mx:[15px] md:-mx-[30px] lg:-mx-[60px] py-3">
-      <div className="navbar-start">
-        {/* <div className="dropdown">
+      <div className="navbar-start flex">
+        <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,15 @@ const Navbar = () => {
               />
             </svg>
           </div>
-        </div> */}
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <Link to="portfolio">Portfolio</Link>
+            </li>
+          </ul>
+        </div>
         <a className="btn btn-ghost text-xl">3D Workshop</a>
       </div>
       <div className="navbar-end hidden lg:flex ">

@@ -11,7 +11,7 @@ const Portfolio = () => {
         <Button title={"Back"} />
       </Link>
       <div className="mt-10">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {portfolios.map((portfolio) => (
             <div key={portfolio.id} className="w-full">
               <LazyLoad height={200} offset={100}>

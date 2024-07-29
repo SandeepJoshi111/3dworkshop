@@ -4,11 +4,11 @@ import Button from "../components/Button";
 const Homepage = () => {
   return (
     <div className="grid grid-cols-1 items-center h-[100vh] lg:grid-cols-2">
-      <div className="">
+      <div className="flex justify-center">
         {" "}
         <img
           src="/images/astronaut-modified-removebg-preview.png"
-          className="sm:w-[200px] md:w-[400px] lg:w-[600px]"
+          className="sm:w-[200px] md:w-[500px] lg:w-[600px]"
         ></img>
       </div>
       <div className=" lg:w-[600px] flex flex-col gap-5 justify-center">

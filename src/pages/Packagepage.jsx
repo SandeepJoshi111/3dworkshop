@@ -8,7 +8,7 @@ const Packagepage = () => {
   return (
     <div className="my-20" id="packages">
       <Title title={"PACKAGES"} subtitle={"Choose Your Perfect Fit!"} />
-      <div className="flex flex-col gap-3 md:flex-row w-full">
+      <div className="flex flex-col gap-3 lg:flex-row w-full">
         <div className="grid flex-grow place-items-center join">
           <div className="card bg-base-300 rounded-box  h-20 w-full flex justify-center items-center text-[2rem] font-bold rounded-t-2xl text-primaryBtn">
             ESSENTIAL
