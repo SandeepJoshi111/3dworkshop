@@ -12,7 +12,10 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+    });
   }, []);
 
   return (
