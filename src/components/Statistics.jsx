@@ -15,7 +15,7 @@ const Statistics = () => {
 
       <div className="stat place-items-center">
         <div className="stat-title">Completed Projects</div>
-        <div className="stat-value">20+</div>
+        <div className="stat-value">15+</div>
       </div>
     </div>
   );

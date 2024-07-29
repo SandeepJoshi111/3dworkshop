@@ -1,4 +1,6 @@
+import { Icon } from "@iconify/react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -24,10 +26,15 @@ const Navbar = () => {
         </div> */}
         <a className="btn btn-ghost text-xl">3D Workshop</a>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      <div className="navbar-end hidden lg:flex ">
+        <ul className="menu menu-horizontal px-1 flex items-center">
           <li>
-            <a>Portfolio</a>
+            <Link to="portfolio">Portfolio</Link>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/3dwork_shop/" target="_blank">
+              <Icon icon="lets-icons:insta" className="size-6" />
+            </a>
           </li>
         </ul>
       </div>
