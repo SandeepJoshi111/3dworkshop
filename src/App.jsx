@@ -8,6 +8,7 @@ import Homepage from "./pages/Homepage";
 import Packagepage from "./pages/Packagepage";
 import Servicepage from "./pages/Servicepage";
 import ReactGA from "react-ga4";
+import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
