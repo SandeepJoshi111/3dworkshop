@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "../components/Title";
 import Statistics from "../components/Statistics";
 
@@ -17,8 +16,8 @@ const Aboutpage = () => {
           knowledge and experiences with others. Our journey has been marked by
           creativity, determination against all odds, and a steadfast commitment
           to delivering high-quality services. Today, we are proud of how far
-          we've come and are eager to extend our expertise to organizations with
-          similar values.
+          we&apos;ve come and are eager to extend our expertise to organizations
+          with similar values.
         </p>
       </div>
       <Statistics />

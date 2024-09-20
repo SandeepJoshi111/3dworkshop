@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../components/Button";
 import portfolios from "../datas/portfolio";
 import LazyLoad from "react-lazyload";
@@ -11,14 +10,16 @@ const Portfolio = () => {
         <Button title={"Back"} />
       </Link>
       <div className="mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="columns-[300px] ">
           {portfolios.map((portfolio) => (
             <div key={portfolio.id} className="w-full">
-              <LazyLoad height={200} offset={100}>
+              <LazyLoad height={200} offset={100} once>
                 <img
                   src={portfolio.image}
+                  srcSet={`${portfolio.image} 500w, ${portfolio.image} 1000w`}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   alt={`Portfolio ${portfolio.id}`}
-                  className="w-[500px] h-[400px] object-cover "
+                  className="w-full mb-4"
                   loading="lazy"
                 />
               </LazyLoad>

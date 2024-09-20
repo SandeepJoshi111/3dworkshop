@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "../components/Title";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";

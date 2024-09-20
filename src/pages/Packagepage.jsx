@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "../components/Title";
 import { Icon } from "@iconify/react";
 import packages from "../datas/package";
