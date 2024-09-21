@@ -43,6 +43,15 @@ const Navbar = () => {
               <Icon icon="lets-icons:insta" className="size-6" />
             </a>
           </li>
+          <li>
+            <a
+              href="https://wa.me/9779818119950?text=Hi! Want to know more about you packages!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon icon="ion:logo-whatsapp" className="size-6" />
+            </a>
+          </li>
         </ul>
       </div>
     </div>

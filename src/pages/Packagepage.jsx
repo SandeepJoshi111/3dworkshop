@@ -39,7 +39,7 @@ const Packagepage = () => {
             )}
             <div className="flex justify-center mt-10">
               <Button
-                title="Rs. 4000"
+                title="Rs. 3000"
                 classname="bg-white text-black  hover:bg-primaryBtn text-xl"
               />
             </div>
@@ -78,7 +78,7 @@ const Packagepage = () => {
             )}
             <div className="flex justify-center mt-10">
               <Button
-                title="Rs. 12,000"
+                title="Rs. 10,000"
                 classname="bg-white text-black  hover:bg-primaryBtn text-xl"
               />
             </div>
@@ -116,7 +116,7 @@ const Packagepage = () => {
             )}
             <div className="flex justify-center mt-10">
               <Button
-                title="Rs. 20,000"
+                title="Rs. 15,000"
                 classname="bg-white text-black  hover:bg-primaryBtn text-xl"
               />
             </div>

@@ -2,7 +2,10 @@ import Button from "../components/Button";
 
 const Homepage = () => {
   return (
-    <div className="grid grid-cols-1 items-center h-[100vh] lg:grid-cols-2">
+    <div
+      className="grid grid-cols-1 items-center h-[100vh] lg:grid-cols-2"
+      id="home"
+    >
       <div className="flex justify-center">
         {" "}
         <img

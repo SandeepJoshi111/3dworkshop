@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
-  scroll-behavior: smooth;
-}
 body {
   margin: 0px 60px;
 }
@@ -20,3 +17,9 @@ body {
     margin: 0px 15px; /* Smaller margin for mobile screens */
   }
 }
+
+* {
+  scrollbar-width: thin; /* Makes the scrollbar thinner in Firefox */
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+

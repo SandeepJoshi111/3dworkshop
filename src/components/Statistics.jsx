@@ -1,11 +1,9 @@
-import React from "react";
-
 const Statistics = () => {
   return (
     <div className=" stats stats-vertical lg:stats-horizontal shadow">
       <div className="stat place-items-center">
         <div className="stat-title">Years of Experience</div>
-        <div className="stat-value">4+</div>
+        <div className="stat-value">3+</div>
       </div>
 
       <div className="stat place-items-center">

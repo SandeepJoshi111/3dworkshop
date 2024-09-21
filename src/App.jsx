@@ -9,6 +9,7 @@ import Packagepage from "./pages/Packagepage";
 import Servicepage from "./pages/Servicepage";
 import ReactGA from "react-ga4";
 import { useEffect } from "react";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <>
+      <CustomCursor />
       <Navbar />
       <Homepage />
       <Aboutpage />
@@ -28,12 +30,9 @@ function App() {
       <Clientpage />
       <Contactpage />
       <Footer />
-      <a
-        href="https://wa.me/9779818119950?text=Hi! Want to know more about you packages!"
-        target="_blank"
-      >
+      <a href="#home">
         <Icon
-          icon="logos:whatsapp-icon"
+          icon="mdi:arrow-up"
           className="fixed size-8 bottom-5 right-5 lg:bottom-10 lg:right-10"
         />
       </a>
