@@ -24,7 +24,7 @@ const Clientpage = () => {
   ];
   return (
     <div className="my-20">
-      <Title title={"OUR CLIETNS"} subtitle={"Trusted by Leading Brands"} />
+      <Title title={"OUR CLIENTS"} subtitle={"Trusted by Leading Brands"} />
       <AliceCarousel mouseTracking items={items} responsive={responsive} />
     </div>
   );
